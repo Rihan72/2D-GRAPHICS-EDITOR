@@ -28,6 +28,23 @@ void drawLine(int row, int startCol, int endCol)
     }
 }
 
+void drawRectangle(int row,int cool,int height,int width)
+{
+  int i,j;
+
+  for(j=cool;j<cool+width;j++)
+    {
+        canvas[row][j]='*';
+        canvas[row+height-1][j]='*';
+    }
+
+    for(i=row;i<row+height;i++)
+    {
+        canvas[i][cool]='*';
+        canvas[i][cool+width-1]='*';
+    }
+}
+
 void displayCanvas()
 {
     int i, j;
@@ -49,7 +66,7 @@ int main()
     initializeCanvas();
 
     drawLine(5, 10, 30);
-
+    drawLine(10,5,15);
     displayCanvas();
 
     return 0;
