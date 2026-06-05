@@ -66,7 +66,7 @@ int main()
     initializeCanvas();
 
     drawLine(5, 10, 30);
-    drawLine(10,5,15);
+    drawRectangle(10,5,5,15);
     displayCanvas();
 
     return 0;
