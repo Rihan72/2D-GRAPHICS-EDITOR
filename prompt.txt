@@ -1,0 +1,18 @@
+﻿Prompt for mini project
+Prompt 1 - Canvas Initialization and Display (Day 1).﻿
+I am developing a menu-driven 2D Graphics Editor in C using a 2D character array as a drawing canvas. First, explain how a 2D character array can be used to represent a graphical canvas in memory. Then write a C program that creates a canvas of size 20x40, initializes every cell with the underscore (_) character, and displays the canvas on the screen. Explain the purpose of the HEIGHT and WIDTH macros, the global canvas array, nested loops used for initialization, and the display function line by line.﻿
+
+Prompt 2 - Line and Rectangle Drawing (Day 2-3).﻿
+Extend the existing 2D graphics editor by implementing functions to draw horizontal lines and rectangles using the '*' character. Before writing the code, explain the logic used to draw a line on a character canvas and how rectangle boundaries can be created using loops. Include boundary checking to prevent array index errors. After generating the code, explain every parameter of the drawLine() and drawRectangle() functions, the algorithm used, time complexity, and how the canvas changes after the shapes are drawn.﻿
+
+Prompt 3 - Triangle and Circle Drawing (Day 4).﻿
+Add support for drawing triangles and circles in a character-based graphics editor written in C. First explain different approaches to representing geometric shapes on a text canvas. Then implement drawTriangle() and drawCircle() functions using '*' characters. Explain the mathematical logic behind the circle equation, how row and column coordinates are calculated, how loops are used to generate the shapes, and how boundary conditions are handled. Include a detailed walkthrough with example inputs and expected canvas output.﻿
+
+Prompt 4 - Shape Storage Using Structures (Day 5).﻿
+The graphics editor now needs to support multiple graphical objects simultaneously. Explain why structures are useful for storing shape information. Design a Shape structure containing fields such as shape ID, shape type, coordinates, dimensions, and active status. Store multiple shapes in an array of structures. Explain the purpose of each field, how shape IDs help identify objects, and how arrays of structures are managed in memory. Then implement the required code and explain it section by section.﻿
+
+Prompt 5 - Redraw Mechanism, Delete and Modify Operations (Day 6).﻿
+Implement delete and modify functionality in a 2D graphics editor that stores shapes in an array of structures. Explain why directly deleting pixels from the canvas can cause problems when shapes overlap. Design a redrawCanvas() function that clears the canvas and redraws all active shapes. Then implement deleteShape() and modifyShape() using shape IDs. Explain the active flag concept, how searching is performed in the shape array, how modifications are applied, and why the redraw strategy is more reliable than erasing individual pixels.﻿
+
+Prompt 6 - Final Menu-Driven Graphics Editor.﻿
+Create a complete menu-driven 2D Graphics Editor in C that supports adding, displaying, deleting, modifying, listing, and clearing shapes. Use a 2D character array as the canvas and structures to manage graphical objects. Before generating the final code, explain the overall software design, data flow, function responsibilities, and menu architecture. After generating the code, provide a detailed explanation of each function, how user input is processed, how shapes are stored and redrawn, and how the program satisfies the requirements of a basic graphics editor.
